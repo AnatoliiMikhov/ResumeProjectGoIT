@@ -1,159 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8">
         <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
+              name="viewport"
+              content="width=device-width, initial-scale=1.0">
         <title>My resume</title>
 
         <link
-            rel="preconnect"
-            href="https://fonts.googleapis.com"
-        />
+              rel="preconnect"
+              href="https://fonts.googleapis.com">
         <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossorigin
-        />
+              rel="preconnect"
+              href="https://fonts.gstatic.com"
+              crossorigin>
         <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
+              href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+              rel="stylesheet">
 
         <link
-            rel="stylesheet"
-            href="css/styles.css"
-        />
+              rel="stylesheet"
+              href="css/styles.css">
     </head>
 
     <body>
         <!-- Wrapper -->
         <div class="wrapper">
             <!-- Main content -->
-            <main class="main-content">
+            <main class="main">
                 <!-- My info -->
-                <div>
-                    <h2>Front-End Developer</h2>
-                    <h1>Anatolii Mikhov</h1>
+                <div class="my-info">
+                    <h2 class="my-profession">Front-End Developer</h2>
+                    <h1 class="my-name">Anatolii Mikhov</h1>
 
-                    <p>
-                        Junior Frontend Developer with a half a year of commercial experience in a couple of freelance
-                        projects. Overall experience in programming - 5 years. Has completed a couple of Web Development
-                        courses. It started as a hobby and now I want to become a professional Frontend Developer. I'd
-                        like to find a friendly team where I can improve my skills. Interested in working with React
+                    <p class="my-descr">
+                        Junior Frontend Developer with a half a year of commercial experience in a
+                        couple of freelance
+                        projects. Overall experience in programming - 5 years. Has completed a
+                        couple of Web Development
+                        courses. It started as a hobby and now I want to become a professional
+                        Frontend Developer. I'd
+                        like to find a friendly team where I can improve my skills. Interested in
+                        working with React
                         library.
                     </p>
-                </div>
+                </div><!-- end my-info -->
 
                 <!-- My projects -->
-                <div>
-                    <h3>Projects</h3>
+                <div class="my-projects-container">
+                    <h3 class="my-projects-title">Projects</h3>
 
-                    <ol>
-                        <li>
-                            <a
-                                href="https://hellen.p.goit.global/"
-                                target="_blank"
-                                >https://hellen.p.goit.global/</a
-                            ><span> ......................................... </span><span>[ HTML5, CSS3 ]</span>
+                    <ol class="my-projects-list">
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link"
+                               href="https://hellen.p.goit.global/"
+                               target="_blank">https://hellen.p.goit.global/</a>
+                            <span class="my-project-item-tech">
+                                ............................................ [
+                                HTML5, CSS3
+                                ]</span>
                         </li>
-                        <li>
-                            <a
-                                href="https://cryptohub.p.goit.global/"
-                                target="_blank"
-                                >https://cryptohub.p.goit.global/</a
-                            ><span> .................................. </span><span>[ JavaScript ]</span>
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link"
+                               href="https://cryptohub.p.goit.global/"
+                               target="_blank">https://cryptohub.p.goit.global/</a>
+                            <span class="my-project-item-tech">
+                                .................................. [ JavaScript
+                                ]</span>
                         </li>
-                        <li>
-                            <a
-                                href="https://kidslike.p.goit.global/"
-                                target="_blank"
-                                >https://kidslike.p.goit.global/</a
-                            ><span> ...................................... </span><span>[ React.js, Node.js ]</span>
+                        <li class="my-projects-item">
+                            <a class="my-projects-item-link"
+                               href="https://kidslike.p.goit.global/"
+                               target="_blank">https://kidslike.p.goit.global/</a>
+                            <span class="my-project-item-tech">
+                                ......................................... [ React.js,
+                                Node.js ]</span>
                         </li>
                     </ol>
-                </div>
+                </div><!-- end my-projects -->
+
                 <!-- Work experience -->
-                <div>
-                    <h3>Work Experience</h3>
-                    <!-- company 1 -->
-                    <div>
-                        <h4>Front-End Developer <span>Freelance</span></h4>
-                        <p>Some month 2024 - and in the future | Ukraine</p>
-                        <ul>
-                            <li>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                <div class="work-experience-container">
+                    <h3 class="work-experience-title">Work Experience</h3>
+
+                    <!-- Company 1 -->
+                    <div class="work-experience-company">
+                        <h4 class="work-experience-company-title">Front-End Developer <span
+                                  class="company-name">Freelance</span></h4>
+                        <p class="work-experience-period">Some month 2024 - and in the future <span
+                                  class="work-experience-period-separator">|</span> Ukraine</p>
+                        <ul class="work-experiennce-duties-list">
+                            <li class="work-experiennce-duties-item">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua.
                             </li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Risus commodo viverra maecenas.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                            <li class="work-experiennce-duties-item">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.</li>
+                            <li class="work-experiennce-duties-item">Risus commodo viverra maecenas.
+                            </li>
+                            <li class="work-experiennce-duties-item">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod.</li>
                         </ul>
                     </div>
-                    <!-- company 2 -->
-                    <div>
-                        <h4>Manager Auto parts market</h4>
-                        <p>June 2011 - February 2022 | Ukraine</p>
-                        <ul>
-                            <li>Working with customers</li>
-                            <li>Selling auto parts</li>
-                            <li>Risus commodo viverra maecenas</li>
+
+                    <!-- Company 2 -->
+                    <div class="work-experience-company">
+
+                        <h4 class="work-experience-company-title">Manager<span
+                                  class="company-name"> Auto parts market</span>
+                        </h4>
+
+                        <p class="work-experience-period">June 2011 - February 2022
+                            <span class="work-experience-period-separator">|</span>
+                            Ukraine
+                        </p>
+
+                        <ul class="work-experiennce-duties-list">
+                            <li class="work-experiennce-duties-item">Working with customers</li>
+                            <li class="work-experiennce-duties-item">Selling auto parts</li>
+                            <li class="work-experiennce-duties-item">Search for product suppliers
+                            </li>
                         </ul>
                     </div>
-                    <!-- company 3 -->
-                    <div>
-                        <h4>Manager</h4>
-                        <p>June 2006 - June 2011 | Country</p>
-                        <ul>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                            <li>Quis ipsum suspendisse ultrices gravida.</li>
-                            <li>Risus commodo viverra maecenas.</li>
+
+                    <!-- Company 3 -->
+                    <div class="work-experience-company">
+                        <h4 class="work-experience-company-title">Manager <span
+                                  class="company-name">AutoVIS</span>
+                        </h4>
+
+                        <p class="work-experience-period">June 2005 - June 2011 <span
+                                  class="work-experience-period-separator">|</span>
+                            Ukraine
+                        </p>
+
+                        <ul class="work-experiennce-duties-list">
+                            <li class="work-experiennce-duties-item">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.</li>
+                            <li class="work-experiennce-duties-item">Quis ipsum suspendisse ultrices
+                                gravida.</li>
+                            <li class="work-experiennce-duties-item">Risus commodo viverra maecenas.
+                            </li>
                         </ul>
                     </div>
-                </div>
+                </div><!-- end work-experience -->
+
                 <!-- Education -->
-                <div>
-                    <h3>Education</h3>
+                <div class="education">
+                    <h3 class="education-title">Education</h3>
 
                     <!-- educaion 1 -->
-                    <div>
-                        <h4>Udemy</h4>
-                        <p>Web Developer 2022</p>
-                        <p>March 2022 - October 2022 | Ukraine</p>
+                    <div class="education-info">
+                        <h4 class="education-place">Udemy</h4>
+                        <p class="education-specialty">Web Developer 2022</p>
+                        <p class="education-period">March 2022 - October 2022 <span
+                                  class="education-period-separator">|</span> Ukraine</p>
                     </div>
 
                     <!-- education 2 -->
-                    <div>
-                        <h4>Udemy</h4>
-                        <p>JavaScript + React full course</p>
-                        <p>March 2021 - October 2021 | Ukraine</p>
+                    <div class="education-info">
+                        <h4 class="education-place">Udemy</h4>
+                        <p class="education-specialty">JavaScript + React full course</p>
+                        <p class="education-period">March 2021 - October 2021 <span
+                                  class="education-period-separator">|</span> Ukraine</p>
                     </div>
 
                     <!-- education 3 -->
-                    <div>
-                        <h4>GeeksForLess Inc.</h4>
-                        <p>Linux and MySQL</p>
-                        <p>August 2018 - November 2018 | Ukraine</p>
+                    <div class="education-info">
+                        <h4 class="education-place">GeeksForLess Inc.</h4>
+                        <p class="education-specialty">Linux and MySQL</p>
+                        <p class="education-period">August 2018 - November 2018 <span
+                                  class="education-period-separator">|</span> Ukraine</p>
                     </div>
-                </div>
+                </div><!-- end education block -->
 
                 <!-- Languages -->
-                <div>
-                    <h3>Languages</h3>
-                    <p>Ukrainian – Native</p>
-                    <p>English – Beginner – Pre- Intermediate (A1-A2)</p>
-                </div>
+                <div class="languages">
+                    <h3 class="languages-title">Languages</h3>
+                    <p class="languages-name">Ukrainian – <span class="languages-level">Native</span></p>
+                    <p class="languages-name">English – <span class="languages-level">Beginner – Pre- Intermediate (A1-A2)</span></p>
+                </div><!-- end languages -->
             </main>
 
             <!-- Sidebar -->
             <aside class="sidebar">
                 <img
-                    src="img/it_is_me.jpeg"
-                    alt="My photo"
-                    width="370"
-                />
+                     src="img/it_is_me.jpeg"
+                     alt="My photo"
+                     width="370">
 
                 <div class="sidebar-content">
                     <!-- Contacts -->
@@ -162,18 +198,14 @@
                         <p class="contacts-item">
                             <span class="contacts-type">C: </span>
                             <a
-                                class="contacts-link"
-                                href="tel:+380975120586"
-                                >+38 097 512 05 86</a
-                            >
+                               class="contacts-link"
+                               href="tel:+380975120586">+38 097 512 05 86</a>
                         </p>
                         <p class="contacts-item">
                             <span class="contacts-type">E: </span>
                             <a
-                                class="contacts-link"
-                                href="mailto:anatoli.mihov@gmail.com"
-                                >anatoli.mihov@gmail.com</a
-                            >
+                               class="contacts-link"
+                               href="mailto:anatoli.mihov@gmail.com">anatoli.mihov@gmail.com</a>
                         </p>
                     </div>
 
@@ -208,4 +240,5 @@
             </aside>
         </div>
     </body>
+
 </html>

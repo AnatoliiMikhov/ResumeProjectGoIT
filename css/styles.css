@@ -1,7 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F6F6FA;
     padding: 40px;
+    margin: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* -------------------------------- Wrapper -------------------------------- */
@@ -9,14 +20,15 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row-reverse;
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: #ffffff;
 }
 
 /* ------------------------------ Main content ----------------------------- */
 
-.main-content {
+.main {
     padding: 80px 40px 80px 88px;
-    box-sizing: border-box;
 }
 
 /* -------------------------------- Sidebar -------------------------------- */
@@ -24,13 +36,11 @@ body {
 .sidebar {
     background: #E0EBFE;
     padding: 40px 0 40px;
-    box-sizing: border-box;
     width: 370px;
 }
 
 .sidebar-content {
     padding: 40px 40px 0 40px;
-    box-sizing: border-box;
 }
 
 /* Contacts */
@@ -90,4 +100,202 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+}
+
+/* -------------------------------- My info -------------------------------- */
+.my-info {
+    margin-bottom: 40px;
+}
+
+.my-profession {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    margin: 0 0 8px
+}
+
+.my-name {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 0 0 12px;
+}
+
+.my-descr {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* ------------------------------ My projects ------------------------------ */
+.my-projects-container {
+    margin-bottom: 40px;
+}
+
+.my-projects-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 0 8px;
+}
+
+.my-projects-list {
+    padding-left: 16px;
+}
+
+.my-projects-item {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.my-projects-item-link {
+    color: #005FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+.my-project-item-tech {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ---------------------------- Work exrerience ---------------------------- */
+.work-experience-container {
+    margin-bottom: 40px;
+}
+
+.work-experience-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0 0 8px;
+}
+
+.work-experience-company {
+    margin-bottom: 12px;
+}
+
+.work-experience-company-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 0 12px;
+}
+
+.company-name {
+    color: #6D9BF5;
+}
+
+.work-experience-period {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0 0 8px;
+}
+
+.work-experience-period-separator {
+    color: #000;
+}
+
+.work-experiennce-duties-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.work-experiennce-duties-item {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+/* ------------------------------- Education ------------------------------- */
+.education {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.education-info {
+    margin-bottom: 12px;
+}
+
+.education-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-place {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-specialty {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.education-period {
+    color: #A8A8A8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.education-period-separator {
+    color: #000;
+}
+
+/* ------------------------------- Languages ------------------------------- */
+.languages {
+    margin-bottom: 40px;
+}
+
+.languages-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.languages-name {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.languages-level {
+    color: #6D9BF5;
 }
