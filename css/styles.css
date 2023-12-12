@@ -52,7 +52,7 @@ ol {
     color: #161D2A;
     font-size: 22px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 20px;
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -86,7 +86,7 @@ ol {
     color: #161D2A;
     font-size: 22px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 20px;
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -238,7 +238,7 @@ ol {
     color: #000;
     font-size: 22px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 20px;
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -247,7 +247,7 @@ ol {
     color: #6D9BF5;
     font-size: 16px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 20px;
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -256,7 +256,7 @@ ol {
     color: #000;
     font-size: 14px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 20px;
     margin-top: 0;
     margin-bottom: 8px;
 }
@@ -265,7 +265,7 @@ ol {
     color: #A8A8A8;
     font-size: 12px;
     font-weight: 400;
-    line-height: normal;
+    line-height: 15px;
     margin: 0;
 }
 
@@ -282,7 +282,7 @@ ol {
     color: #000;
     font-size: 22px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 20px;
     margin-top: 0;
     margin-bottom: 12px;
 }
@@ -291,7 +291,7 @@ ol {
     color: #000;
     font-size: 14px;
     font-weight: 700;
-    line-height: normal;
+    line-height: 15px;
     margin-top: 0;
     margin-bottom: 8px;
 }
